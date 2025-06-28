@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: left;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+h1 .logo {
+  width: 70px; /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Degree Selection Styles */
+.select-degree {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 5px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+/* Courses Table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 4px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff; /* Blue header */
+  color: white;
+}
+
+#compulsory {
+  background-color: #28a745; /* Black background */
+}
+
+/* Divider for Elective Courses */
+.divider {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin: 20px 0;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-error {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-error:hover {
+  background-color: #c82333;
+}
+
+/* Elective Course Styles */
+.elective-course {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.elective-course select {
+  margin-right: 10px;
+}
+
+button.delete-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Result Calculation Display */
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-top: 20px;
+}
+
+/* Grading Table Styles */
+.grading-table {
+  width: 30%; 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 12px; 
+}
+
+.grading-table th, .grading-table td {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.grading-table th {
+  background-color: #007bff; 
+  color: white;
+}
+
+.grading-table td {
+  background-color: #f9f9f9; 
+}
+
+.grading-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; 
+}
+
